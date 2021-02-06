@@ -326,7 +326,7 @@ video#herovideo {
 }
 
 .vidContent p {
-  font-family: "Roboto Condensed", monospace;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 #vidBtn {
@@ -349,7 +349,7 @@ video#herovideo {
     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
   }
   100% {
-    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
   }
 }
 
@@ -393,6 +393,8 @@ ul.social-icons.list-inline {
   margin-top: 50px !important;
 }
 
+/* Service Section */
+
 #about-us .carosel-indicators {
   position: static;
   padding-top: 30px;
@@ -424,7 +426,7 @@ ul.social-icons.list-inline {
   right: -35px;
 }
 
-#about-us .carousel-control-next {
+#about-us .carousel-control-prev {
   left: -35px;
 }
 
@@ -439,7 +441,7 @@ ul.social-icons.list-inline {
 p.lead {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 14px;
-  color: #f7cc4b !important;
+  color: #6c757d !important;
   font-weight: bold;
 }
 
@@ -460,6 +462,7 @@ p.text-secondary {
 /* Work section */
 
 #work h3 {
+  display: fl;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 36px;
@@ -488,6 +491,11 @@ p.text-secondary {
 img {
   width: 100%;
   height: auto;
+}
+
+.row.no-gutters [class*="col-"] {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .container-fluid {
